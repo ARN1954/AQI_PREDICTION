@@ -85,7 +85,11 @@ st.markdown("""
         font-size: 1.1rem;
     }
     .stNumberInput input {
-        color: #ffffff !important;
+        color: #000000 !important;
+        background-color: #ffffff !important;
+    }
+    .stNumberInput input:focus {
+        box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.5);
     }
 
     /* Buttons */
