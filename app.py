@@ -23,9 +23,22 @@ st.markdown("""
 <style>
     /* General App Styling */
     .stApp {
-        background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%);
+        background: url('https://cdn.mos.cms.futurecdn.net/xcLR5HMU2kxskdAy3ZVuTf-970-80.jpg.webp') no-repeat center center fixed;
+        background-size: cover;
         min-height: 100vh;
         color: #ffffff;
+    }
+
+    /* Add overlay to improve readability */
+    .stApp::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: -1;
     }
 
     /* Main Content Area */
@@ -33,10 +46,11 @@ st.markdown("""
         max-width: 1200px;
         padding: 2rem 3rem;
         margin: 0 auto;
-        background: rgba(30, 30, 30, 0.95);
+        background: rgba(30, 30, 30, 0.85);
         border-radius: 20px;
         box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
     /* Header Styling */
@@ -58,6 +72,7 @@ st.markdown("""
         margin-bottom: 1.5rem;
         transition: transform 0.3s ease;
         border: 1px solid rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(5px);
     }
     .input-section:hover {
         transform: translateY(-5px);
