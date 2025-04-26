@@ -8,7 +8,7 @@ A Streamlit web application that predicts Air Quality Index (AQI) based on pollu
   - Standard Calculation (98% accuracy)
   - Linear Regression (85% accuracy)
   - Decision Tree (92% accuracy)
-  - Random Forest (99.14% accuracy)
+  - Random Forest (95% accuracy)
 - Real-time AQI category classification
 - Beautiful and responsive UI
 - Detailed model information and accuracy scores
