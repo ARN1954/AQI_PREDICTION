@@ -8,7 +8,7 @@ A Streamlit web application that predicts Air Quality Index (AQI) based on pollu
   - Standard Calculation (98% accuracy)
   - Linear Regression (85% accuracy)
   - Decision Tree (92% accuracy)
-  - Random Forest (99.14% accuracy)
+  - Random Forest (95% accuracy)
 - Real-time AQI category classification
 - Beautiful and responsive UI
 - Detailed model information and accuracy scores
@@ -19,7 +19,7 @@ A Streamlit web application that predicts Air Quality Index (AQI) based on pollu
 1. Clone the repository:
 ```bash
 git clone https://github.com/ARN1954/AQI_PREDICTION.git
-cd air-quality-prediction
+cd AQI_PREDICTION
 ```
 
 2. Install dependencies:
