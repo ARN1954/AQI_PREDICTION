@@ -19,7 +19,7 @@ A Streamlit web application that predicts Air Quality Index (AQI) based on pollu
 1. Clone the repository:
 ```bash
 git clone https://github.com/ARN1954/AQI_PREDICTION.git
-cd air-quality-prediction
+cd AQI_PREDICTION
 ```
 
 2. Install dependencies:
