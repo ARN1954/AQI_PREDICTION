@@ -1,4 +1,4 @@
-# 🌤️ Air Quality Index (AQI) Prediction
+ 🌤️ Air Quality Index (AQI) Prediction
 
 A Streamlit web application that predicts Air Quality Index (AQI) based on pollutant levels using multiple machine learning models.
 
